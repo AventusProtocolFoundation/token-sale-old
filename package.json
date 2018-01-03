@@ -1,0 +1,25 @@
+{
+  "name": "SmartContracts",
+  "version": "1.0.0",
+  "description": "ERC-20 token for Aventus",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash scripts/test.sh",
+    "clean": "rm -rf build logs",
+    "build": "bash scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/AlanVey/coin.git"
+  },
+  "author": "Alan Vey",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/AlanVey/coin#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "ethereumjs-testrpc": "^3.9.0",
+    "mocha": "^3.4.1",
+    "solc": "^0.4.11",
+    "web3": "^0.18.4"
+  }
+}
